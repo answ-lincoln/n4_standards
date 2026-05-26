@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 199.08 199.08">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #acb6dd;
+      }
+    </style>
+  </defs>
+  <g id="Duct_Elbow">
+    <path class="cls-1" d="M199.08,0h-8.62v7.14H7.14v183.33H0v8.62h158.33s2.5,0,2.5,0v-8.62h-7.14v-36.77h36.77v7.14h8.62v-2.5h0V0ZM157.83,193.46v4.62H2.5v-4.62h155.33ZM192.46,150.69h-41.77v41.77h-7.48v-49.25h49.25v7.48ZM192.46,142.21h-50.25v50.25H18.62V18.62h173.85v123.6ZM192.46,17.62H17.62v174.85h-7.48V10.14h182.33v7.48ZM198.08,158.33h-4.62V3h4.62v155.33Z"/>
+  </g>
+</svg>

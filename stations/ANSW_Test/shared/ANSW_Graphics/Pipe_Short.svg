@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 249.21 40.21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #acb6dd;
+      }
+    </style>
+  </defs>
+  <g id="Pipe_Short">
+    <path class="cls-1" d="M248.71,0h-11.53v2.5s0,4.11,0,4.11H12.03V2.5s0-2.5,0-2.5H0v40.21h12.03v-6.6h225.15v4.1s0,2.5,0,2.5h12.03V0h-.5ZM1,3h8.03v4.12H1V3ZM1,8.12h8.03v23.98H1V8.12ZM9.03,37.21H1v-4.12h8.03v4.12ZM239.18,30.61H10.03V9.61h229.15v21ZM248.21,37.21h-8.03v-4.12h8.03v4.12ZM248.21,32.09h-8.03V8.12h8.03v23.98ZM248.21,7.12h-8.03V3h8.03v4.12Z"/>
+  </g>
+</svg>
