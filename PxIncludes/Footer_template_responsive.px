@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Niagara Presentation XML -->
+<px version="1.0" media="workbench:WbPxMedia">
+<import>
+  <module name="baja"/>
+  <module name="bajaui"/>
+  <module name="converters"/>
+  <module name="genericUIFramework"/>
+  <module name="gx"/>
+  <module name="kitPx"/>
+</import>
+<layers>
+  <layer name="PageTemplate" status="normal"/>
+</layers>
+<content>
+<FlowPane align="fill" rowAlign="fill" hgap="0" vgap="0" background="#32324d">
+
+  <BorderPane padding="10.0 0.0 10.0 10.0" border="top(3.0 solid #a5a5ba)">
+
+    <CanvasPane name="content" viewSize="250.0,75.0" minScaleFactor="1.0">
+
+      <Label layout="0.0,40.0,210.0,20.0" text="San Diego, CA" font="bold 18.0pt SansSerif" foreground="#e0e0e0" halign="left">
+        <WidgetIdBinding/>
+      </Label>
+
+      <Label layout="0.0,20.0,210.0,20.0" text="7777 Towne Centre Drive" font="bold 18.0pt SansSerif" foreground="#e0e0e0" halign="left">
+        <WidgetIdBinding/>
+      </Label>
+
+      <Label layout="0.0,0.0,130.0,20.0" text="Building" font="bold 18.0pt SansSerif" foreground="#e0e0e0" halign="left">
+        <WidgetIdBinding/>
+      </Label>
+
+    </CanvasPane>
+
+  </BorderPane>
+
+  <BorderPane padding="10.0 0.0" border="top(3.0 solid #a5a5ba)">
+
+    <CanvasPane name="content" viewSize="350.0,75.0" halign="fill" valign="fill">
+
+      <BoundLabel layout="20.0,0.0,320.0,50.0" font="bold 26.0pt SansSerif" foreground="#e0e0e0" halign="fill" valign="fill" textToIconAlign="center">
+        <BoundLabelBinding ord="$(device)">
+          <ObjectToString name="text" format="%displayName%"/>
+        </BoundLabelBinding>
+        <WsAnnotation name="wsAnnotation" value="2,2,8"/>
+      </BoundLabel>
+
+    </CanvasPane>
+
+  </BorderPane>
+
+  <BorderPane padding="10.0 0.0" border="top(3.0 solid #a5a5ba)">
+
+    <CanvasPane name="content" viewSize="75.0,75.0" halign="fill" valign="fill">
+
+      <Picture image="file:^ANSW_SVG/White logo - no background - no words.png" scale="fit" halign="fill" valign="fill"/>
+
+    </CanvasPane>
+
+  </BorderPane>
+
+  <LayerTag name="LayerTag" layerName="PageTemplate"/>
+
+</FlowPane>
+</content>
+</px>

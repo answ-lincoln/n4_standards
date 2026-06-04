@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Niagara Presentation XML -->
+<px version="1.0" media="workbench:WbPxMedia">
+<import>
+  <module name="baja"/>
+  <module name="bajaui"/>
+  <module name="gx"/>
+</import>
+<properties>
+
+  <property name="linkedOrd" type="baja:Ord" value="$(device)">
+  </property>
+
+</properties>
+<layers>
+  <layer name="PageTemplate" status="normal"/>
+</layers>
+<content>
+<FlowPane align="fill" rowAlign="fill" hgap="0" vgap="0" background="#32324d">
+
+  <BorderPane name="BorderPane" padding="10.0 0.0 10.0 10.0" border="right(3.0 solid #a5a5ba)">
+
+    <CanvasPane name="content" viewSize="150.0,500.0" minScaleFactor="1.0">
+
+      <HyperlinkLabel name="HyperlinkLabel" layout="0.0,116.0,150.0,30.0" text="Air Systems" font="bold underline 18.0pt SansSerif" foreground="#e4e9ff"/>
+
+      <HyperlinkLabel name="HyperlinkLabel1" layout="0.0,87.0,150.0,30.0" text="Chilled Water" font="bold underline 18.0pt SansSerif" foreground="#e4e9ff"/>
+
+      <HyperlinkLabel name="HyperlinkLabel2" layout="0.0,58.0,150.0,30.0" text="Hot Water" font="bold underline 18.0pt SansSerif" foreground="#e4e9ff"/>
+
+      <HyperlinkLabel name="HyperlinkLabel3" layout="0.0,174.0,150.0,30.0" text="Switchgear" font="bold underline 18.0pt SansSerif" foreground="#e4e9ff"/>
+
+      <HyperlinkLabel name="HyperlinkLabel4" layout="0.0,145.0,150.0,30.0" text="Generator" font="bold underline 18.0pt SansSerif" foreground="#e4e9ff"/>
+
+      <HyperlinkLabel name="HyperlinkLabel6" layout="0.0,0.0,150.0,30.0" text="Dashboard" font="bold underline 18.0pt SansSerif" foreground="#e4e9ff"/>
+
+      <HyperlinkLabel name="HyperlinkLabel7" layout="0.0,203.0,150.0,30.0" text="Floor 1" font="bold underline 18.0pt SansSerif" foreground="#e4e9ff"/>
+
+      <HyperlinkLabel name="HyperlinkLabel8" layout="0.0,233.0,150.0,30.0" text="Floor 2" font="bold underline 18.0pt SansSerif" foreground="#e4e9ff"/>
+
+      <HyperlinkLabel name="HyperlinkLabel9" layout="0.0,262.0,150.0,30.0" text="Floor 3" font="bold underline 18.0pt SansSerif" foreground="#e4e9ff"/>
+
+      <HyperlinkLabel name="HyperlinkLabel10" layout="0.0,291.0,150.0,30.0" text="Floor 4" font="bold underline 18.0pt SansSerif" foreground="#e4e9ff"/>
+
+      <HyperlinkLabel name="HyperlinkLabel11" layout="0.0,320.0,150.0,30.0" text="Floor 5" font="bold underline 18.0pt SansSerif" foreground="#e4e9ff"/>
+
+      <HyperlinkLabel name="HyperlinkLabel12" layout="0.0,349.0,150.0,30.0" text="Floor 6" font="bold underline 18.0pt SansSerif" foreground="#e4e9ff"/>
+
+      <HyperlinkLabel name="HyperlinkLabel13" layout="0.0,378.0,150.0,30.0" text="Floor 7" font="bold underline 18.0pt SansSerif" foreground="#e4e9ff"/>
+
+      <HyperlinkLabel name="HyperlinkLabel14" layout="0.0,407.0,150.0,30.0" text="Floor 8" font="bold underline 18.0pt SansSerif" foreground="#e4e9ff"/>
+
+      <HyperlinkLabel name="HyperlinkLabel15" layout="0.0,436.0,150.0,30.0" text="Floor 9" font="bold underline 18.0pt SansSerif" foreground="#e4e9ff"/>
+
+      <HyperlinkLabel name="HyperlinkLabel16" layout="0.0,465.0,150.0,30.0" text="Floor 10" font="bold underline 18.0pt SansSerif" foreground="#e4e9ff"/>
+
+      <HyperlinkLabel name="HyperlinkLabel5" layout="0.0,29.0,150.0,30.0" text="Alarm Console" font="bold underline 18.0pt SansSerif" foreground="#e4e9ff"/>
+
+    </CanvasPane>
+
+    <LayerTag name="LayerTag" layerName="PageTemplate"/>
+
+  </BorderPane>
+
+  <LayerTag name="LayerTag" layerName="PageTemplate"/>
+
+</FlowPane>
+</content>
+</px>

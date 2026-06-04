@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_2"
+   data-name="Layer 2"
+   viewBox="0 0 1152.9837 419.99872"
+   version="1.1"
+   sodipodi:docname="Duct_Supply_Return.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   width="1152.9836"
+   height="419.99872"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.552076"
+     inkscape:cx="435.86783"
+     inkscape:cy="215.5178"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_2" /><defs
+     id="defs1"><style
+       id="style1">
+      .cls-1 {
+        fill: #acb6dd;
+      }
+    </style><style
+       id="style1-1">
+      .cls-1 {
+        fill: #acb6dd;
+      }
+    </style></defs><g
+     id="Duct_Long"
+     transform="matrix(0.71469093,0,0,1,366.31623,258.20583)"><path
+       class="cls-1"
+       d="M 1100.7,2.5 V 2.5 0 h -8.62 V 7.14 H 8.62 V 0 H 0.01 V 2.5 H 0 v 155.83 h 0.01 v 2.5 h 8.61 v -7.14 h 1083.47 v 7.14 h 8.62 v -2.5 0 V 2.5 Z m -6.62,148.19 H 6.62 v -7.48 h 1087.47 v 7.48 z m 0,-8.48 H 6.62 V 18.62 h 1087.47 v 123.6 z M 6.62,17.62 v -7.48 h 1087.47 v 7.48 z M 1,3 H 5.62 V 158.33 H 1 Z M 1095.08,151.69 V 3 h 4.62 v 155.33 h -4.62 z"
+       id="path1" /></g><g
+     id="Duct_Long-5"
+     transform="matrix(0,0.10638234,-1,0,374.9778,150.8949)"
+     inkscape:label="Duct_Long-5"><path
+       class="cls-1"
+       d="M 1100.7,2.5 V 2.5 0 h -8.62 V 7.14 H 8.62 V 0 H 0.01 V 2.5 H 0 v 155.83 h 0.01 v 2.5 h 8.61 v -7.14 h 1083.47 v 7.14 h 8.62 v -2.5 0 V 2.5 Z m -6.62,148.19 H 6.62 v -7.48 h 1087.47 v 7.48 z m 0,-8.48 H 6.62 V 18.62 h 1087.47 v 123.6 z M 6.62,17.62 v -7.48 h 1087.47 v 7.48 z M 1,3 H 5.62 V 158.33 H 1 Z M 1095.08,151.69 V 3 h 4.62 v 155.33 h -4.62 z"
+       id="path1-1"
+       style="fill:#acb6dd" /></g><g
+     id="Duct_Long-8"
+     transform="matrix(0.71318612,0,0,1,367.92847,0.21138937)"><path
+       class="cls-1"
+       d="M 1100.7,2.5 V 2.5 0 h -8.62 V 7.14 H 8.62 V 0 H 0.01 V 2.5 H 0 v 155.83 h 0.01 v 2.5 h 8.61 v -7.14 h 1083.47 v 7.14 h 8.62 v -2.5 0 V 2.5 Z m -6.62,148.19 H 6.62 v -7.48 h 1087.47 v 7.48 z m 0,-8.48 H 6.62 V 18.62 h 1087.47 v 123.6 z M 6.62,17.62 v -7.48 h 1087.47 v 7.48 z M 1,3 H 5.62 V 158.33 H 1 Z M 1095.08,151.69 V 3 h 4.62 v 155.33 h -4.62 z"
+       id="path1-8"
+       style="fill:#acb6dd" /></g><path
+     class="cls-1"
+     d="m 221.27808,2.9837221 v 0 -2.48998492 H 214.4003 V 7.6051338 H 6.877803 V 0.49373718 H 0.008 V 2.9837221 H 0 V 158.18945 h 0.008 v 2.48999 h 6.869803 v -7.1114 H 214.40828 v 7.1114 h 6.87778 v -2.48999 0 V 2.9837221 Z M 215.99606,150.58006 H 5.282029 v -7.45003 H 216.00405 v 7.45003 z m 0,-8.44602 H 5.282029 V 19.039143 H 216.00405 V 142.144 Z M 5.282029,18.04315 V 10.593115 H 216.00405 V 18.04315 Z M 0.797909,3.481719 H 4.484142 V 158.18945 H 0.797909 Z M 216.79396,151.57604 V 3.481719 h 3.68624 V 158.18945 h -3.68624 z"
+     id="path1-89"
+     style="stroke-width:0.891455" /><path
+     class="cls-1"
+     d="m 222.50036,261.70138 v 0 -2.48999 h -6.87778 v 7.1114 H 8.100087 v -7.1114 h -6.86981 v 2.48999 h -0.008 V 416.9071 h 0.008 v 2.48999 h 6.86981 v -7.1114 H 215.63056 v 7.1114 h 6.87778 v -2.48999 0 -155.20572 z m -5.28202,147.59633 H 6.504307 v -7.45003 H 217.22633 v 7.45003 z m 0,-8.44602 H 6.504307 V 277.7568 H 217.22633 V 400.86165 Z M 6.504307,276.7608 v -7.45003 H 217.22633 v 7.45003 z m -4.48412,-14.56143 h 3.68624 V 416.9071 H 2.020187 Z M 218.01624,410.29369 V 262.19937 h 3.68624 V 416.9071 h -3.68624 z"
+     id="path1-89-5"
+     style="fill:#acb6dd;stroke-width:0.891455" /><path
+     style="fill:#acb6dd;fill-opacity:0.333333;stroke:#acb6dd;stroke-width:3;stroke-dasharray:none;stroke-opacity:1"
+     d="M 220.38415,1.4999861 369.86136,2.1442844"
+     id="path13" /><path
+     style="fill:#acb6dd;fill-opacity:0.333333;stroke:#acb6dd;stroke-width:3;stroke-dasharray:none;stroke-opacity:1"
+     d="m 218.65156,417.85443 149.47721,0.64429"
+     id="path13-1" /></svg>

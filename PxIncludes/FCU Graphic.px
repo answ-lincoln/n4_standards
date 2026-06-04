@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Niagara Presentation XML -->
+<px version="1.0" media="workbench:WbPxMedia">
+<import>
+  <module name="baja"/>
+  <module name="bajaui"/>
+  <module name="converters"/>
+  <module name="genericUIFramework"/>
+  <module name="gx"/>
+  <module name="kitPx"/>
+</import>
+<content>
+<FlowPane align="fill" background="#32324d">
+
+  <ResponsivePane>
+
+    <EdgePane name="content">
+
+      <PxInclude name="top" ord="file:^Header_template_responsive.px" variables="device=s:station$3a$7cslot$3a$2fDrivers$2fBacnetNetwork$2fControlLogic$2fFCU_2_2$7cview$3aFCU$2420Graphic$2feditor"/>
+
+      <PxInclude name="left" ord="file:^Navbar_template_responsive.px" variables="device=s:station$3a$7cslot$3a$2fDrivers$2fBacnetNetwork$2fControlLogic$2fFCU_2_2">
+        <Ord name="linkedOrd" value="$(device)"/>
+      </PxInclude>
+
+      <FlowPane name="center" align="fill" background="#32324d">
+
+        <ResponsivePane>
+
+          <CanvasPane name="content" viewSize="500.0,250.0">
+
+            <Picture layout="285.0,95.0,40.0,100.0" image="file:^ANSW_SVG/Duct_Coil_Generic.svg" scale="zoomRatio"/>
+
+            <Picture layout="125.0,90.0,240.0,70.0" image="file:^ANSW_SVG/Duct_Mid.svg" scale="zoomRatio"/>
+
+            <Picture layout="190.0,98.0,55.0,54.0" image="file:^ANSW_SVG/Duct_Fan.svg" scale="fitRatio"/>
+
+            <Picture layout="325.0,70.0,55.0,54.0" image="file:^ANSW_SVG/Duct_Sensor_Generic.svg" scale="fitRatio"/>
+
+          </CanvasPane>
+
+        </ResponsivePane>
+
+        <ResponsivePane forceNewRow="true">
+
+          <CanvasPane name="content" viewSize="250.0,100.0">
+
+            <Picture layout="50.0,25.0,55.0,54.0" image="file:^ANSW_SVG/Duct_Sensor_WallMounted.svg" scale="fitRatio"/>
+
+            <Label layout="20.0,0.0,120.0,20.0" text="Room Temperature" font="14.0pt SansSerif" foreground="#e4e9ff"/>
+
+            <PxInclude layout="100.0,30.0,110.0,60.0" ord="file:^SensorSetpoint.px" variables="sensor=s:station$3a$7cslot$3a$2fDrivers$2fBacnetNetwork$2fControlLogic$2fFCU_2_2$2fRoomTemp"/>
+
+          </CanvasPane>
+
+        </ResponsivePane>
+
+        <ResponsivePane>
+
+          <CanvasPane name="content" viewSize="250.0,100.0"/>
+
+        </ResponsivePane>
+
+      </FlowPane>
+
+      <CanvasPane name="right" viewSize="200.0,500.0">
+
+        <BoundTable layout="0.0,65.0,200.0,380.0" extendedResize="true">
+          <TableBinding ord="station:|slot:/Drivers/BacnetNetwork/ControlLogic/FCU_2_2|bql:select displayName as &#x27;Name&#x27;,toString as &#x27;Value&#x27; from control:ControlPoint where status.alarm = &#x27;true&#x27;"/>
+        </BoundTable>
+
+        <Label layout="10.0,40.0,180.0,20.0" text="Alarms in this system" font="bold 18.0pt SansSerif" foreground="#e4e9ff"/>
+
+      </CanvasPane>
+
+      <PxInclude name="bottom" ord="file:^Footer_template_responsive.px"/>
+
+    </EdgePane>
+
+  </ResponsivePane>
+
+</FlowPane>
+</content>
+</px>

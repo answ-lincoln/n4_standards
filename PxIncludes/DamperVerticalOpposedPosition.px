@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Niagara Presentation XML -->
+<px version="1.0" media="workbench:WbPxMedia">
+<import>
+  <module name="baja"/>
+  <module name="bajaui"/>
+  <module name="converters"/>
+  <module name="gx"/>
+  <module name="kitPx"/>
+</import>
+<content>
+<FlowPane align="fill" rowAlign="fill" hgap="0" vgap="0" background="#32324d">
+
+  <CanvasPane viewSize="90.0,140.0">
+
+    <BoundLabel layout="0.0,20.0,90.0,20.0" foreground="#e4e9ff">
+      <BoundLabelBinding ord="$(device)Pos">
+        <ObjectToString name="text"/>
+      </BoundLabelBinding>
+      <WsAnnotation name="wsAnnotation" value="2,2,8"/>
+    </BoundLabel>
+
+    <BoundLabel layout="0.0,40.0,90.0,20.0" foreground="#32324d" background="white" border="2.0 solid black">
+      <BoundLabelBinding ord="$(device)">
+        <ObjectToString name="text"/>
+      </BoundLabelBinding>
+      <WsAnnotation name="wsAnnotation" value="2,2,8"/>
+    </BoundLabel>
+
+    <BoundLabel layout="0.0,0.0,90.0,20.0" font="bold 14.0pt SansSerif" foreground="#e4e9ff">
+      <BoundLabelBinding ord="$(device)">
+        <ObjectToString name="text" format="%displayName%"/>
+      </BoundLabelBinding>
+      <WsAnnotation name="wsAnnotation" value="2,2,8"/>
+    </BoundLabel>
+
+    <Picture layout="30.0,80.0,30.0,60.0" image="file:^ANSW_SVG/Duct_Damper_AHU_Opposed_Open.svg" scale="zoomRatio">
+      <ValueBinding ord="$(device)">
+        <INumericToSimple name="image" map="gx:Image 0.0:15.0=file:^ANSW_SVG/Duct_Damper_AHU_Opposed_Closed.svg;15.0:75.0=file:^ANSW_SVG/Duct_Damper_AHU_Opposed_Partway.svg;75.0:100.0=file:^ANSW_SVG/Duct_Damper_AHU_Opposed_Open.svg;default=file:^ANSW_SVG/Duct_Damper_AHU_Opposed_Open.svg;"/>
+      </ValueBinding>
+    </Picture>
+
+  </CanvasPane>
+
+</FlowPane>
+</content>
+</px>

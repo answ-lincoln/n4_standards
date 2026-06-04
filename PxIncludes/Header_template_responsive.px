@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Niagara Presentation XML -->
+<px version="1.0" media="workbench:WbPxMedia">
+<import>
+  <module name="baja"/>
+  <module name="bajaui"/>
+  <module name="converters"/>
+  <module name="gx"/>
+  <module name="kitPx"/>
+</import>
+<layers>
+  <layer name="PageTemplate" status="normal"/>
+</layers>
+<content>
+<FlowPane align="fill" rowAlign="fill" hgap="0" vgap="0" background="#32324d">
+
+  <BorderPane padding="10.0 0.0 10.0 10.0" border="bottom(3.0 solid #a5a5ba)">
+
+    <CanvasPane name="content" viewSize="50.0,50.0" minScaleFactor="1.0">
+
+      <Picture image="file:^ANSW Graphics/Customer/customer_logo_white.png" scale="fitRatio"/>
+
+    </CanvasPane>
+
+  </BorderPane>
+
+  <BorderPane padding="10.0 0.0" border="bottom(3.0 solid #a5a5ba)">
+
+    <CanvasPane name="content" viewSize="400.0,50.0" halign="fill" valign="fill">
+
+      <BoundLabel layout="90.0,0.0,290.0,50.0" font="bold 26.0pt SansSerif" foreground="#e0e0e0">
+        <BoundLabelBinding ord="$(device)">
+          <ObjectToString name="text" format="%displayName%"/>
+        </BoundLabelBinding>
+        <WsAnnotation name="wsAnnotation" value="2,2,8"/>
+      </BoundLabel>
+
+    </CanvasPane>
+
+  </BorderPane>
+
+  <BorderPane padding="10.0 0.0" border="bottom(3.0 solid #a5a5ba)">
+
+    <CanvasPane name="content" viewSize="200.0,50.0" halign="fill" valign="fill">
+
+      <BoundLabel layout="35.0,0.0,150.0,20.0" font="bold 14.0pt SansSerif" foreground="#e0e0e0" halign="right">
+        <BoundLabelBinding ord="station:|slot:/">
+          <ObjectToString name="text" format="%time()%"/>
+        </BoundLabelBinding>
+        <WsAnnotation name="wsAnnotation" value="2,2,8"/>
+      </BoundLabel>
+
+      <BoundLabel layout="55.0,20.0,130.0,20.0" font="bold 14.0pt SansSerif" foreground="#e0e0e0" halign="right">
+        <BoundLabelBinding ord="station:|slot:/">
+          <ObjectToString name="text" format="Logged in: %user()%"/>
+        </BoundLabelBinding>
+        <WsAnnotation name="wsAnnotation" value="2,2,8"/>
+      </BoundLabel>
+
+    </CanvasPane>
+
+  </BorderPane>
+
+  <LayerTag name="LayerTag" layerName="PageTemplate"/>
+
+</FlowPane>
+</content>
+</px>
