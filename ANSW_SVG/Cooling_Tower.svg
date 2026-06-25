@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_2"
+   data-name="Layer 2"
+   viewBox="0 0 300 260"
+   version="1.1"
+   sodipodi:docname="Cooling_Tower.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview27"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="3.15"
+     inkscape:cx="149.84127"
+     inkscape:cy="130"
+     inkscape:window-width="2048"
+     inkscape:window-height="1058"
+     inkscape:window-x="4043"
+     inkscape:window-y="618"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Cooling_Tower" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .cls-1 { fill: #acb6dd; }
+      .cls-2 { fill: none; stroke: #acb6dd; stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; }
+      .cls-3 { fill: none; stroke: #acb6dd; stroke-width: 1.5; stroke-linejoin: round; stroke-linecap: round; }
+    </style>
+  </defs>
+  <g
+     id="Cooling_Tower">
+    <!-- fan stack (flared shroud) -->
+    <path
+       class="cls-2"
+       d="M120,80 L114,46 Q114,38 122,38 L178,38 Q186,38 186,46 L180,80"
+       id="path1" />
+    <!-- induced-draft fan -->
+    <!-- casing -->
+    <rect
+       class="cls-2"
+       x="46"
+       y="80"
+       width="208"
+       height="118"
+       rx="4"
+       id="rect6" />
+    <!-- casing panel seams (upper) -->
+    <line
+       class="cls-3"
+       x1="104"
+       y1="84"
+       x2="104"
+       y2="150"
+       id="line7" />
+    <line
+       class="cls-3"
+       x1="150"
+       y1="84"
+       x2="150"
+       y2="150"
+       id="line8" />
+    <line
+       class="cls-3"
+       x1="196"
+       y1="84"
+       x2="196"
+       y2="150"
+       id="line9" />
+    <!-- air-inlet louvers (lower) -->
+    <line
+       class="cls-3"
+       x1="54"
+       y1="160"
+       x2="246"
+       y2="156"
+       id="line10" />
+    <line
+       class="cls-3"
+       x1="54"
+       y1="170"
+       x2="246"
+       y2="166"
+       id="line11" />
+    <line
+       class="cls-3"
+       x1="54"
+       y1="180"
+       x2="246"
+       y2="176"
+       id="line12" />
+    <line
+       class="cls-3"
+       x1="54"
+       y1="190"
+       x2="246"
+       y2="186"
+       id="line13" />
+    <!-- cold-water basin -->
+    <rect
+       class="cls-2"
+       x="22"
+       y="198"
+       width="256"
+       height="30"
+       rx="3"
+       id="rect13" />
+    <!-- access ladder -->
+    <!-- hot-water inlet (left, bore 21 + flange) -->
+    <line
+       class="cls-2"
+       x1="46"
+       y1="85"
+       x2="20"
+       y2="85"
+       id="line24" />
+    <line
+       class="cls-2"
+       x1="46"
+       y1="106"
+       x2="20"
+       y2="106"
+       id="line25" />
+    <rect
+       class="cls-1"
+       x="13"
+       y="80"
+       width="6"
+       height="31"
+       id="rect25" />
+    <!-- cold-water outlet (bottom, bore 21 + flange) -->
+    <line
+       class="cls-2"
+       x1="138"
+       y1="228"
+       x2="138"
+       y2="252"
+       id="line26" />
+    <line
+       class="cls-2"
+       x1="162"
+       y1="228"
+       x2="162"
+       y2="252"
+       id="line27" />
+    <rect
+       class="cls-1"
+       x="133"
+       y="251"
+       width="34"
+       height="6"
+       id="rect27" />
+  </g>
+</svg>
