@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124.6 150.21">
+  <defs>
+    <style>
+      .cls-1 { fill: #acb6dd; }
+      .cls-2 { fill: none; stroke: #acb6dd; stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; }
+      .cls-3 { fill: none; stroke: #acb6dd; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+    </style>
+  </defs>
+  <g id="Pipe_Sensor_Flow">
+    <!-- inline pipe section -->
+    <path class="cls-1" transform="translate(0,110)" d="M124.1,0h-11.53v2.5s0,4.11,0,4.11H12.03V2.5s0-2.5,0-2.5H0v40.21h12.03v-6.6h100.54v4.1s0,2.5,0,2.5h12.03V0h-.5ZM1,3h8.03v4.12H1V3ZM1,8.12h8.03v23.98H1V8.12ZM9.03,37.21H1v-4.12h8.03v4.12ZM114.57,30.61H10.03V9.61h104.54v21ZM123.6,37.21h-8.03v-4.12h8.03v4.12ZM123.6,32.09h-8.03V8.12h8.03v23.98ZM123.6,7.12h-8.03V3h8.03v4.12Z"/>
+    <!-- flow-meter body straddling the pipe -->
+    <rect class="cls-2" x="41.3" y="112" width="42" height="36" rx="4"/>
+    <!-- flow direction arrow inside the bore -->
+    <polygon class="cls-1" points="74.3 130 64.3 124 64.3 127.5 52.3 127.5 52.3 132.5 64.3 132.5 64.3 136"/>
+    <!-- transmitter neck -->
+    <rect class="cls-2" x="56.3" y="92" width="12" height="22"/>
+    <!-- transmitter head with display -->
+    <rect class="cls-2" x="44.3" y="56" width="36" height="38" rx="5"/>
+    <rect class="cls-3" x="50.3" y="62" width="24" height="13" rx="1.5"/>
+    <circle class="cls-1" cx="54.3" cy="84" r="2"/>
+    <circle class="cls-1" cx="62.3" cy="84" r="2"/>
+    <circle class="cls-1" cx="70.3" cy="84" r="2"/>
+  </g>
+</svg>

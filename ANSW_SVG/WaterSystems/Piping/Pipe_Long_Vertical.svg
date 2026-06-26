@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.21 996.84">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #acb6dd;
+      }
+    </style>
+  </defs>
+  <g transform="translate(40.21,0) rotate(90)">
+  <g id="Pipe_Long">
+    <path class="cls-1" d="M996.34,0h-11.53v2.5s0,4.11,0,4.11H12.03V2.5s0-2.5,0-2.5H0v40.21h12.03v-6.6h972.77v4.1s0,2.5,0,2.5h12.03V0h-.5ZM1,3h8.03v4.12H1V3ZM1,8.12h8.03v23.98H1V8.12ZM9.03,37.21H1v-4.12h8.03v4.12ZM986.81,30.61H10.03V9.61h976.77v21ZM995.84,37.21h-8.03v-4.12h8.03v4.12ZM995.84,32.09h-8.03V8.12h8.03v23.98ZM995.84,7.12h-8.03V3h8.03v4.12Z"/>
+  </g>
+</g>
+</svg>

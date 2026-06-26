@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_2"
+   data-name="Layer 2"
+   viewBox="0 0 124.6 150.21"
+   version="1.1"
+   sodipodi:docname="Pipe_Sensor_DP.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="15.421621"
+     inkscape:cx="68.702245"
+     inkscape:cy="70.939364"
+     inkscape:window-width="3041"
+     inkscape:window-height="1553"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Pipe_Sensor_DP" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .cls-1 { fill: #acb6dd; }
+      .cls-2 { fill: none; stroke: #acb6dd; stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; }
+      .cls-3 { fill: none; stroke: #acb6dd; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+    </style>
+  </defs>
+  <g
+     id="Pipe_Sensor_DP">
+    <!-- inline pipe section -->
+    <path
+       class="cls-1"
+       transform="translate(0,110)"
+       d="M124.1,0h-11.53v2.5s0,4.11,0,4.11H12.03V2.5s0-2.5,0-2.5H0v40.21h12.03v-6.6h100.54v4.1s0,2.5,0,2.5h12.03V0h-.5ZM1,3h8.03v4.12H1V3ZM1,8.12h8.03v23.98H1V8.12ZM9.03,37.21H1v-4.12h8.03v4.12ZM114.57,30.61H10.03V9.61h104.54v21ZM123.6,37.21h-8.03v-4.12h8.03v4.12ZM123.6,32.09h-8.03V8.12h8.03v23.98ZM123.6,7.12h-8.03V3h8.03v4.12Z"
+       id="path1" />
+    <!-- two pressure taps on the pipe -->
+    <rect
+       class="cls-2"
+       x="33.5"
+       y="106"
+       width="9"
+       height="10"
+       id="rect1" />
+    <rect
+       class="cls-2"
+       x="82.1"
+       y="106"
+       width="9"
+       height="10"
+       id="rect2" />
+    <!-- impulse lines rising to the transmitter -->
+    <path
+       class="cls-2"
+       d="M 38.088732,105.91127 V 91.413253 c 0,-8.28458 12.999284,-8.28458 16.249105,-12.42687"
+       id="path2" />
+    <path
+       class="cls-2"
+       d="M 86.526864,105.92686 V 91.27239 c 0,-8.373986 -12.609236,-8.373986 -15.761545,-12.560979"
+       id="path3" />
+    <!-- differential-pressure diaphragm capsule -->
+    <!-- electronics housing -->
+    <rect
+       class="cls-2"
+       x="46.3"
+       y="28"
+       width="32"
+       height="34"
+       rx="5"
+       id="rect4" />
+    <rect
+       class="cls-3"
+       x="52.3"
+       y="34"
+       width="20"
+       height="11"
+       rx="1.5"
+       id="rect5" />
+    <circle
+       class="cls-1"
+       cx="55.3"
+       cy="53"
+       r="2"
+       id="circle5" />
+    <circle
+       class="cls-1"
+       cx="69.3"
+       cy="53"
+       r="2"
+       id="circle6" />
+    <circle
+       class="cls-1"
+       cx="55.512444"
+       cy="70.542236"
+       r="2"
+       id="circle5-4"
+       style="fill:#acb6dd" />
+    <circle
+       class="cls-1"
+       cx="69.512451"
+       cy="70.542236"
+       r="2"
+       id="circle6-5"
+       style="fill:#acb6dd" />
+    <rect
+       class="cls-3"
+       x="47.302078"
+       y="61.954258"
+       width="30.121695"
+       height="16.145555"
+       rx="2.2591269"
+       id="rect6" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#acb6dd;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 55.506486,66.789347 V 74.57063"
+       id="path6" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#acb6dd;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 69.4993,66.97967 v 7.781283"
+       id="path6-7" />
+  </g>
+</svg>
