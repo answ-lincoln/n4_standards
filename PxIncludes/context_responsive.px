@@ -16,123 +16,75 @@
   <layer name="PageTemplate" status="normal"/>
 </layers>
 <content>
-<FlowPane align="fill" background="#32324d">
+<FlowPane align="right" vgap="1" background="#32324d">
 
-  <ResponsivePane name="ResponsivePane3" minWidth="50.0" forceNewRow="true">
+  <ResponsivePane name="ResponsivePane" minWidth="pref" forceNewRow="true">
 
-    <ExpandablePane name="content" expanderHalign="center" summaryBackground="#32324d">
+    <Label name="content" text="Alarms" font="14.0pt Open Sans" foreground="#c00000"/>
 
-      <Label name="summary" text="Alarms              " font="bold 16.0pt Consolas" foreground="#32324d" background="#ffa869" textToIconAlign="center"/>
+  </ResponsivePane>
 
-      <FlowPane name="expansion" rowAlign="top" hgap="0" vgap="1" background="#32324d">
+  <ResponsivePane name="ResponsivePane1" maxWidth="pref" minWidth="pref">
 
-        <LayerTag name="LayerTag" layerName="PageTemplate"/>
+    <ExpandablePane name="content" summaryBackground="#c00000">
 
-        <ResponsivePane name="ResponsivePane" maxWidth="25.0%" minWidth="pref">
-
-          <BoundTable name="content">
-            <TableBinding name="TableBinding" ord="$(device)|bql:select name as &#x27;Point Name&#x27;,slotPath as &#x27;Location&#x27;,out as &#x27;Value @ Priority&#x27; from control:ControlPoint where status.alarm = &#x27;true&#x27;"/>
-          </BoundTable>
-
-        </ResponsivePane>
-
-      </FlowPane>
+      <BoundTable name="expansion" colorRows="false">
+        <TableBinding name="TableBinding" ord="$(device)|bql:select name as &#x27;Point Name&#x27;,out as &#x27;Value @ Priority&#x27; from control:ControlPoint where status.alarm = &#x27;true&#x27;"/>
+      </BoundTable>
 
     </ExpandablePane>
 
   </ResponsivePane>
 
-  <ResponsivePane name="ResponsivePane2" minWidth="50.0" forceNewRow="true">
+  <ResponsivePane name="ResponsivePane2" minWidth="pref" forceNewRow="true">
 
-    <ExpandablePane name="content" expanderHalign="left" summaryBackground="#32324d">
+    <Label name="content" text="Diagnostics" font="14.0pt Open Sans" foreground="#c0c000"/>
 
-      <Label name="summary" text="Diagnostics         " font="bold 16.0pt Consolas" foreground="#32324d" background="#ffa869" textToIconAlign="center"/>
+  </ResponsivePane>
 
-      <FlowPane name="expansion" rowAlign="top" hgap="0" vgap="1" background="#32324d">
+  <ResponsivePane name="ResponsivePane3" minWidth="pref">
 
-        <LayerTag name="LayerTag" layerName="PageTemplate"/>
+    <ExpandablePane name="content" summaryBackground="#c0c000">
 
-        <ResponsivePane name="ResponsivePane" maxWidth="25.0%" minWidth="pref" forceNewRow="true">
-
-          <BoundTable name="content">
-            <TableBinding name="TableBinding" ord="$(device)|bql:select name as &#x27;Point Name&#x27;,slotPath as &#x27;Location&#x27;,out as &#x27;Value @ Priority&#x27; from control:ControlPoint where displayName like &#x27;%Diag&#x27;"/>
-          </BoundTable>
-
-        </ResponsivePane>
-
-      </FlowPane>
+      <BoundTable name="expansion">
+        <TableBinding name="TableBinding" ord="$(device)|bql:select name as &#x27;Point Name&#x27;,out as &#x27;Value @ Priority&#x27; from control:ControlPoint where displayName like &#x27;%Diag&#x27;"/>
+      </BoundTable>
 
     </ExpandablePane>
 
   </ResponsivePane>
 
-  <ResponsivePane name="ResponsivePane" minWidth="50.0" forceNewRow="true">
+  <ResponsivePane name="ResponsivePane4" minWidth="pref" forceNewRow="true">
 
-    <ExpandablePane name="content" expanderHalign="left" summaryBackground="#32324d">
+    <Label name="content" text="Overrides" font="14.0pt Open Sans" foreground="#bb80ff"/>
 
-      <Label name="summary" text="Overrides           " font="bold 16.0pt Consolas" foreground="#32324d" background="#ffa869" textToIconAlign="center"/>
+  </ResponsivePane>
 
-      <FlowPane name="expansion" rowAlign="top" hgap="0" vgap="1" background="#32324d">
+  <ResponsivePane name="ResponsivePane5" minWidth="pref">
 
-        <LayerTag name="LayerTag" layerName="PageTemplate"/>
+    <ExpandablePane name="content" expanderHalign="left" summaryBackground="#bb80ff">
 
-        <ResponsivePane name="ResponsivePane" maxWidth="25.0%" minWidth="pref">
-
-          <BoundTable name="content">
-            <TableBinding name="TableBinding" ord="$(device)|bql:select name as &#x27;Point Name&#x27;,slotPath as &#x27;Location&#x27;,out as &#x27;Value @ Priority&#x27; from control:ControlPoint where status.overridden = &#x27;true&#x27;"/>
-          </BoundTable>
-
-        </ResponsivePane>
-
-      </FlowPane>
+      <BoundTable name="expansion">
+        <TableBinding name="TableBinding" ord="$(device)|bql:select name as &#x27;Point Name&#x27;,out as &#x27;Value @ Priority&#x27; from control:ControlPoint where status.overridden = &#x27;true&#x27;"/>
+      </BoundTable>
 
     </ExpandablePane>
 
   </ResponsivePane>
 
-  <ResponsivePane name="ResponsivePane1" minWidth="50.0" forceNewRow="true">
+  <ResponsivePane name="ResponsivePane6" minWidth="pref" forceNewRow="true">
 
-    <ExpandablePane name="content" expanderHalign="left" summaryBackground="#32324d">
-
-      <Label name="summary" text="Faults              " font="bold 16.0pt Consolas" foreground="#32324d" background="#ffa869" textToIconAlign="center"/>
-
-      <FlowPane name="expansion" rowAlign="top" hgap="0" vgap="1" background="#32324d">
-
-        <LayerTag name="LayerTag" layerName="PageTemplate"/>
-
-        <ResponsivePane name="ResponsivePane" maxWidth="25.0%" minWidth="pref" forceNewRow="true">
-
-          <BoundTable name="content">
-            <TableBinding name="TableBinding" ord="$(device)|bql:select name as &#x27;Point Name&#x27;,slotPath as &#x27;Location&#x27;,out as &#x27;Value @ Priority&#x27; from control:ControlPoint where status.fault = &#x27;true&#x27;"/>
-          </BoundTable>
-
-        </ResponsivePane>
-
-      </FlowPane>
-
-    </ExpandablePane>
+    <Label name="content" text="Setpoints" font="14.0pt Open Sans" foreground="#a5a5ba"/>
 
   </ResponsivePane>
 
-  <ResponsivePane name="ResponsivePane4" minWidth="50.0" forceNewRow="true">
+  <ResponsivePane name="ResponsivePane7" minWidth="pref">
 
-    <ExpandablePane name="content" expanderHalign="left" summaryBackground="#32324d">
+    <ExpandablePane name="content" expanderHalign="left" summaryBackground="#a5a5ba">
 
-      <Label name="summary" text="Setpoints           " font="bold 16.0pt Consolas" foreground="#32324d" background="#ffa869" textToIconAlign="center"/>
-
-      <FlowPane name="expansion" rowAlign="top" hgap="0" vgap="1" background="#32324d">
-
-        <LayerTag name="LayerTag" layerName="PageTemplate"/>
-
-        <ResponsivePane name="ResponsivePane" maxWidth="25.0%" minWidth="pref" forceNewRow="true">
-
-          <BoundTable name="content">
-            <TableBinding name="TableBinding" ord="$(device)|bql:select name as &#x27;Point Name&#x27;,slotPath as &#x27;Location&#x27;,out as &#x27;Value @ Priority&#x27; from control:ControlPoint where displayName like &#x27;%Stpt&#x27;"/>
-          </BoundTable>
-
-        </ResponsivePane>
-
-      </FlowPane>
+      <BoundTable name="expansion">
+        <TableBinding name="TableBinding" ord="$(device)|bql:select name as &#x27;Point Name&#x27;,out as &#x27;Value @ Priority&#x27; from control:ControlPoint where displayName like &#x27;%Stpt&#x27;"/>
+      </BoundTable>
 
     </ExpandablePane>
 
