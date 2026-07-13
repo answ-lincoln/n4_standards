@@ -41,7 +41,6 @@
       </BoundLabelBinding>
       <WsAnnotation name="wsAnnotation" value="2,2,8"/>
       <PopupBinding ord="$(auditHistory)|view:history:WebHistoryTable|bql:select * from $(auditHistory) where target like &#x27;%Stpt&#x27; and operation = &#x27;Invoked&#x27;" title="Audit History" modal="true"/>
-      <ActionBinding ord="station:|slot:/Systems/ChilledWater" widgetEvent="mouseEvent"/>
     </BoundLabel>
 
   </ResponsivePane>
