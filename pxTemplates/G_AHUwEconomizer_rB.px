@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Niagara Presentation XML -->
+<px version="1.0" media="workbench:WbPxMedia">
+<import>
+  <module name="baja"/>
+  <module name="bajaui"/>
+  <module name="converters"/>
+  <module name="genericUIFramework"/>
+  <module name="gx"/>
+  <module name="kitPx"/>
+</import>
+<content>
+<ScrollPane>
+
+  <EdgePane name="content">
+
+    <PxInclude name="top" ord="file:^PxIncludes/Header_template_responsive.px" variables="device=s:station$3a$7cslot$3a$2fAHUwEconomizer"/>
+
+    <PxInclude name="left" ord="file:^PxIncludes/Navbar_template_responsive.px">
+      <Ord name="linkedOrd" value="$(device)"/>
+    </PxInclude>
+
+    <FlowPane name="center" align="fill" background="#32324d">
+
+      <ResponsivePane minWidth="100.0%" forceNewRow="true">
+
+        <CanvasPane name="content" viewSize="960.0,540.0" maxScaleFactor="4.0">
+
+          <Picture layout="181.0,66.0,100.0,100.0" image="file:^ANSW_SVG/AirSystems/Components/Duct_Damper_AHU_Opposed_Partway.svg" scale="fitRatio"/>
+
+          <Picture layout="381.0,170.0,100.0,100.0" image="file:^ANSW_SVG/AirSystems/Components/Duct_Damper_AHU_Opposed_Partway_Horizontal.svg" scale="fitRatio"/>
+
+          <Picture layout="826.0,276.0,100.0,100.0" image="file:^ANSW_SVG/AirSystems/Ducting/Duct_Start_Left.svg" scale="fitRatio"/>
+
+          <Picture layout="129.0,66.0,100.0,100.0" image="file:^ANSW_SVG/AirSystems/Ducting/Duct_Start_Right.svg" scale="fitRatio"/>
+
+          <Picture layout="357.0,240.0,150.0,150.0" image="file:^ANSW_SVG/AirSystems/Ducting/Duct_Tee.svg" scale="fitRatio"/>
+
+          <Picture layout="357.0,54.0,150.0,150.0" image="file:^ANSW_SVG/AirSystems/Ducting/Duct_Tee_Down.svg" scale="fitRatio"/>
+
+          <Picture layout="181.0,276.0,100.0,100.0" image="file:^ANSW_SVG/AirSystems/Components/Duct_Damper_AHU_Opposed_Partway.svg" scale="fitRatio"/>
+
+          <Picture layout="129.0,276.0,100.0,100.0" image="file:^ANSW_SVG/AirSystems/Ducting/Duct_Start_Right.svg" scale="fitRatio"/>
+
+          <Picture layout="479.0,240.0,220.0,172.0" image="file:^ANSW_SVG/AirSystems/Ducting/Duct_Short.svg" scale="fitRatio"/>
+
+          <Picture layout="479.0,30.0,220.0,172.0" image="file:^ANSW_SVG/AirSystems/Ducting/Duct_Short.svg" scale="fitRatio"/>
+
+          <Picture layout="648.0,30.0,220.0,172.0" image="file:^ANSW_SVG/AirSystems/Ducting/Duct_Short.svg" scale="fitRatio"/>
+
+          <Picture layout="827.0,66.0,100.0,100.0" image="file:^ANSW_SVG/AirSystems/Ducting/Duct_Start_Left.svg" scale="fitRatio"/>
+
+          <Picture layout="647.0,240.0,220.0,172.0" image="file:^ANSW_SVG/AirSystems/Ducting/Duct_Short.svg" scale="fitRatio"/>
+
+          <Picture layout="740.0,290.0,100.0,120.0" image="file:^ANSW_SVG/AirSystems/Components/Duct_Coil_Generic.svg" scale="zoomHeight"/>
+
+          <Picture layout="665.0,290.0,100.0,120.0" image="file:^ANSW_SVG/AirSystems/Components/Duct_Coil_Generic.svg" scale="zoomHeight"/>
+
+          <Picture layout="575.0,285.0,80.0,80.0" image="file:^ANSW_SVG/AirSystems/Components/Duct_Fan.svg" scale="fitRatio"/>
+
+          <Picture layout="255.0,75.0,100.0,80.0" image="file:^ANSW_SVG/AirSystems/Components/Duct_Fan_Left.svg" scale="fitRatio"/>
+
+          <Picture layout="480.0,289.0,100.0,76.0" image="file:^ANSW_SVG/AirSystems/Components/Duct_Filter_MERV.svg" scale="fitRatio"/>
+
+          <Picture layout="500.0,289.0,100.0,76.0" image="file:^ANSW_SVG/AirSystems/Components/Duct_Filter_MERV.svg" scale="fitRatio"/>
+
+          <Picture layout="910.0,275.0,50.0,100.0" image="file:^ANSW_SVG/AirSystems/Symbols/Duct_Arrow_Right.svg" scale="fitRatio"/>
+
+          <Picture layout="120.0,275.0,50.0,100.0" image="file:^ANSW_SVG/AirSystems/Symbols/Duct_Arrow_Right.svg" scale="fitRatio"/>
+
+          <Picture layout="120.0,65.0,50.0,100.0" image="file:^ANSW_SVG/AirSystems/Symbols/Duct_Arrow_Left.svg" scale="fitRatio"/>
+
+          <Picture layout="910.0,70.0,50.0,100.0" image="file:^ANSW_SVG/AirSystems/Symbols/Duct_Arrow_Left.svg" scale="fitRatio"/>
+
+          <Picture layout="385.0,320.0,100.0,70.0" image="file:^ANSW_SVG/AirSystems/Sensors/Duct_Sensor_Generic.svg" scale="fitRatio"/>
+
+          <Picture layout="248.0,29.0,108.0,174.0" image="file:^ANSW_SVG/AirSystems/Ducting/Duct_Short.svg" scale="zoomHeight"/>
+
+          <Picture layout="248.0,240.0,108.0,174.0" image="file:^ANSW_SVG/AirSystems/Ducting/Duct_Short.svg" scale="zoomHeight"/>
+
+          <Picture layout="523.0,376.0,36.0,36.0" image="file:^ANSW_SVG/AirSystems/Sensors/Sensor_DP_Down_NoPickups.svg" scale="fitRatio"/>
+
+          <Picture layout="506.0,351.0,30.0,30.0" image="file:^ANSW_SVG/AirSystems/Sensors/Sensor_DP_Down_LeftPickup.svg" scale="fitRatio"/>
+
+          <Picture layout="545.0,351.0,30.0,30.0" image="file:^ANSW_SVG/AirSystems/Sensors/Sensor_DP_Down_RightPickup.svg" scale="fitRatio"/>
+
+          <PxInclude layout="565.0,405.0,104.0,70.0" ord="file:^PxIncludes/PointCmdWithLabelAbove.px" variables="auditHistory=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fSupplyFan$2fSpeed|point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fSupplyFan$2fSpeed"/>
+
+          <PxInclude layout="255.0,160.0,104.0,80.0" ord="file:^PxIncludes/PointCmdWithLabelAbove.px" variables="auditHistory=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fExhFan$2fSpeed|point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fExhFan$2fSpeed"/>
+
+          <PxInclude layout="150.0,400.0,150.0,70.0" ord="file:^PxIncludes/PointCmdWithLabelAbove.px" variables="auditHistory=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fEconomizer$2fOutsideAirDamper|point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fEconomizer$2fOutsideAirDamper"/>
+
+          <PxInclude layout="0.0,286.0,120.0,80.0" ord="file:^PxIncludes/PointSetpointWithLabelAbove.px" variables="auditHistory=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fEconomizer$2fOutsideAirFlow|point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fEconomizer$2fOutsideAirFlow"/>
+
+          <PxInclude layout="357.0,90.0,150.0,73.0" ord="file:^PxIncludes/PointCmdWithLabelAbove.px" variables="auditHistory=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fEconomizer$2fReturnAirDamper|point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fEconomizer$2fReturnAirDamper"/>
+
+          <PxInclude layout="370.0,400.0,134.0,75.0" ord="file:^PxIncludes/PointSetpointWithLabelAbove.px" variables="auditHistory=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fEconomizer$2fMixedAirTemp|point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fEconomizer$2fMixedAirTemp"/>
+
+          <PxInclude layout="160.0,0.0,140.0,70.0" ord="file:^PxIncludes/PointCmdWithLabelAbove.px" variables="auditHistory=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fEconomizer$2fExhAirDamper|point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fEconomizer$2fExhAirDamper"/>
+
+          <PxInclude layout="15.0,80.0,90.0,70.0" ord="file:^PxIncludes/PointSetpointWithLabelAbove.px" variables="auditHistory=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fEconomizer$2fExhAirFlow|point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fEconomizer$2fExhAirFlow"/>
+
+          <PxInclude layout="360.0,470.0,150.0,70.0" ord="file:^PxIncludes/PointSetpointWithLabelAbove.px" variables="auditHistory=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fEconomizer$2fMixedAirHum|point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fEconomizer$2fMixedAirHum"/>
+
+          <PxInclude layout="840.0,405.0,119.0,70.0" ord="file:^PxIncludes/PointSetpointWithLabelAbove.px" variables="auditHistory=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fSystem$2fSupplyAirTemp|point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fSystem$2fSupplyAirTemp"/>
+
+          <PxInclude layout="590.0,210.0,60.0,30.0" ord="file:^PxIncludes/PointWithLabelAbove.px" variables="point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fSystem$2fSmoke"/>
+
+          <PxInclude layout="850.0,210.0,94.0,70.0" ord="file:^PxIncludes/PointSetpointWithLabelAbove.px" variables="auditHistory=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fSystem$2fStaticPress|point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fSystem$2fStaticPress"/>
+
+          <PxInclude layout="840.0,470.0,114.0,70.0" ord="file:^PxIncludes/PointSetpointWithLabelAbove.px" variables="auditHistory=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fSystem$2fSupplyAirHum|point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fSystem$2fSupplyAirHum"/>
+
+          <PxInclude layout="525.0,90.0,140.0,50.0" ord="file:^PxIncludes/PointWithLabelAbove.px" variables="point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fSystem$2fReturnAirHum"/>
+
+          <PxInclude layout="690.0,90.0,140.0,53.0" ord="file:^PxIncludes/PointWithLabelAbove.px" variables="point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fSystem$2fReturnAirTemp"/>
+
+          <PxInclude layout="490.0,470.0,104.0,70.0" ord="file:^PxIncludes/PointSetpointWithLabelAbove.px" variables="auditHistory=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fSystem$2fFltrPress|point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fSystem$2fFltrPress"/>
+
+          <PxInclude layout="505.0,210.0,70.0,23.0" ord="file:^PxIncludes/PointWithLabelAbove.px" variables="point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fSystem$2fFltrAlarm"/>
+
+          <PxInclude layout="700.0,210.0,104.0,80.0" ord="file:^PxIncludes/PointCmdWithLabelAbove.px" variables="auditHistory=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fCoilControl$2fClgWtrVlv|point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fCoilControl$2fClgWtrVlv"/>
+
+          <PxInclude layout="710.0,405.0,84.0,70.0" ord="file:^PxIncludes/PointCmdWithLabelAbove.px" variables="auditHistory=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fCoilControl$2fHtgHwVlv|point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fCoilControl$2fHtgHwVlv"/>
+
+          <PxInclude layout="0.0,170.0,130.0,50.0" ord="file:^PxIncludes/PointWithLabelAbove.px" variables="point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fSystem$2fOutsideAirTemp"/>
+
+          <PxInclude layout="0.0,220.0,130.0,50.0" ord="file:^PxIncludes/PointWithLabelAbove.px" variables="point=s:station$3a$7cslot$3a$2fAHUwEconomizer$2fSystem$2fOutsideAirHum"/>
+
+        </CanvasPane>
+
+      </ResponsivePane>
+
+    </FlowPane>
+
+    <PxInclude name="right" ord="file:^PxIncludes/context_responsive.px" variables="device=s:station$3a$7cslot$3a$2fAHUwEconomizer">
+      <Ord name="linkedOrd" value="$(device)"/>
+    </PxInclude>
+
+    <PxInclude name="bottom" ord="file:^PxIncludes/Footer_template_responsive.px" variables="device=s:station$3a$7cslot$3a$2fAHUwEconomizer"/>
+
+  </EdgePane>
+
+</ScrollPane>
+</content>
+</px>
